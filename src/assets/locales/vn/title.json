@@ -1,0 +1,72 @@
+{
+    "languageCode": "vi",
+    "login": {
+        "id": "Tên đăng nhập",
+        "password": "Mật khẩu",
+        "forgotPassword": "Quên mật khẩu?",
+        "signIn": "Đăng nhập",
+        "rememberPassword": "Ghi nhớ mật khẩu",
+        "title": "Hadito",
+        "acceptCode": "Mã xác nhận",
+        "phoneReceived": "Nhận qua số điện thoại",
+        "mailReceived": "Nhận qua email.",
+        "resetTitle": "Khôi phục mật khẩu"
+    },
+    "dashboard": {
+        "dashboard": "Trang chủ"
+    },
+    "about": {
+        "about": "Về chúng tôi"
+    },
+    "forgotPassword": {
+        "forgotPassword": "Lấy lại mật khẩu"
+    },
+    "main": {
+        "languageName": "English",
+        "required": "Buộc nhập"
+    },
+    "breadCumbs": {
+        "productList": "Danh mục sản phẩm"
+    },
+    "products": {
+        "id": "Mã SP",
+        "name": "Tên sản phẩm"
+    },
+    "button": {
+        "delete": "Xóa",
+        "accept": "Nhận",
+        "edit": "Sửa",
+        "backToProductList": "Trở lại trang danh mục sản phẩm"
+    },
+    "err": {
+        "title" : "Hadito Management",
+        "accept": "Nhận",
+        "cancel": "Hủy",
+        "100": "Lỗi không xác định.",
+        "101": "Lỗi không xác định.",
+        "102": "Tên đăng nhập hoặc mật khẩu không đúng.",
+        "103": "Tên đăng nhập hoặc mật khẩu không đúng.",
+        "104": "Lỗi không xác định.",
+        "110": "Lỗi không xác định.",
+        "111": "Lỗi không xác định.",
+        "112": "Lỗi không xác định.",
+        "113": "Lỗi không xác định.",
+        "114": "Tên đăng nhập hoặc mật khẩu không đúng.",
+        "115": "Lỗi không xác định.",
+        "130": "Lỗi không xác định.",
+        "131": "Bạn đã hết phiên làm việc. Vui lòng đăng nhập lại.",
+        "132": "Bạn đã hết phiên làm việc. Vui lòng đăng nhập lại.",
+        "133": "Bạn đã hết phiên làm việc. Vui lòng đăng nhập lại.",
+        "134": "Bạn đã hết phiên làm việc. Vui lòng đăng nhập lại.",
+        "135": "Bạn đã hết phiên làm việc. Vui lòng đăng nhập lại.",
+        "136": "Bạn đã hết phiên làm việc. Vui lòng đăng nhập lại.",
+        "140": "Lỗi không xác định.",
+        "141": "Dữ liệu không đúng.",
+        "150": "Lỗi chưa xác định.",
+        "151": "Lỗi chưa xác định.",
+        "161": "Chức năng chưa được khai báo.",
+        "162": "Chức năng chưa được khai báo.",
+        "600" : "Tên đăng nhập hoặc mật khẩu không đúng.",
+        "601" : "Bạn đã đăng nhập sai nhiều lần. Vui lòng quay lại sau."
+    }
+}

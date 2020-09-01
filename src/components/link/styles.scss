@@ -1,0 +1,10 @@
+@import '../../styles/color';
+
+.hdt-link-button {
+    a {
+        color: $link;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

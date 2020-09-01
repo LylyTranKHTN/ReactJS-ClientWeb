@@ -1,0 +1,51 @@
+﻿.hdt-icon-button {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.hdt-btn-icon {
+}
+
+    .hdt-btn-icon::after {
+        border: none;
+    }
+
+    .hdt-btn-icon > i {
+        font-size: 1.5rem;
+    }
+
+.btn-rounded:hover .hdt-icon-button {
+    color: black;
+}
+
+.hdt-btn a {
+    padding: 3px 5px 3px 5px;
+}
+
+.hdt-icon {
+    width: 24px;
+    height: auto;
+    margin: 0px 10px 0px 10px;
+}
+
+.hdt-card-text {
+    display: inline;
+}
+
+
+.hdt-card-text-descrition {
+    color: black;
+}
+
+.color-danger, .color-dark, .color-info, .color-secondary, .color-primary, .color-success, .color-warning {
+    color: white;
+}
+
+.color-basic {
+    color: gray;
+}
+
+.hdt-active {
+    background-color: #007bff;
+    color: white;
+}

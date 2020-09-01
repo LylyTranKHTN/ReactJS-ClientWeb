@@ -1,0 +1,11 @@
+.select-field-component {
+    width: 200px;
+    .select-field__control {
+        width: 200px;
+    }
+    .select-field__menu {
+        .select-field__menu-list {
+            color: black;
+        }
+    }
+}

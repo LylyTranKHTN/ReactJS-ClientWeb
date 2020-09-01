@@ -1,0 +1,35 @@
+@import "./main.scss";
+@import "./_color.scss";
+
+.hdt-link-button, .hdt-checkbox {
+  a {
+    color: $link;
+    font-family: $font !important;
+  }
+}
+
+.hdt-checkbox:last-child{
+    color: $text;
+}
+
+// checkbox
+.MuiFormControlLabel-label{
+    color: $text;
+    font-weight: 100 !important;
+    font-size: 14px !important;
+}
+
+.hdt-label{
+  font-family: $font;
+  color: $text;
+}
+
+.MuiFormControlLabel-label,
+.MuiTypography-body1,
+.MuiButton-label,
+.MuiInputBase-input,
+.MuiFormHelperText-root,
+.MuiTextField-root,
+.MuiFormLabel-root {
+  font-family: $font !important;
+}

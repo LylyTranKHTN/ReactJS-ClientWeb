@@ -1,0 +1,11 @@
+@import '../../styles/color';
+
+.hdt-header {
+    flex-grow: 1;
+    .MuiPaper-root {
+        background-color: $bluebell-dark;
+    }
+    .menu-button {
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "languageCode": "en",
+    "login": {
+        "id": "Username",
+        "password": "Password",
+        "forgotPassword": "Forgot password?",
+        "signIn": "Sign in",
+        "rememberPassword" : "Remember password",
+        "title" : "Hadito",
+        "acceptCode": "Code",
+        "phoneReceived": "Received via phone",
+        "mailReceived": "Received via email",
+        "resetTitle": "Reset password"
+    },
+    "dashboard": {
+        "dashboard": "Dashboard"
+    },
+    "about": {
+        "about": "About"
+    },
+    "forgotPassword": {
+        "forgotPassword": "Get Password"
+    },
+    "main":{
+        "languageName" : "Tiếng Việt",
+        "required": "Required"
+    },
+    "breadCumbs": {
+        "productList": "Product List"
+    },
+    "products": {
+        "id": "ID",
+        "name": "Product Name"
+    },
+    "button": {
+        "delete": "Delete",
+        "accept": "Submit",
+        "edit": "Edit",
+        "backToProductList": "Back to product list page"
+    },
+    "err": {
+        "title" : "Hadito Management",
+        "accept": "Ok",
+        "cancel": "Cancel",
+        "100": "Unknow error.",
+        "101": "Unknow error.",
+        "102": "Username or password is incorrect.",
+        "103": "Username or password is incorrect.",
+        "104": "Unknow error.",
+        "110": "Unknow error.",
+        "111": "Unknow error.",
+        "112": "Unknow error.",
+        "113": "Unknow error.",
+        "114": "Username or password is incorrect.",
+        "115": "Unknow error.",
+        "130": "Unknow error.",
+        "131": "Unauthorized.",
+        "132": "Unauthorized.",
+        "133": "Unauthorized.",
+        "134": "Unauthorized.",
+        "135": "Unauthorized.",
+        "136": "Unauthorized.",
+        "140": "Unknow error.",
+        "141": "Data is incorrect.",
+        "150": "Unknow error.",
+        "151": "Unknow error.",
+        "161": "Unkown function.ư.",
+        "162": "Unkown function.ư.",
+        "600" : "Username or password is incorrect.",
+        "601" : "Incorret many times. Please try later."
+    }
+}

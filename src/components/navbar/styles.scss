@@ -1,0 +1,43 @@
+@import '../../styles/color';
+
+.dropdown-divider {
+    height: 0;
+    margin: .5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+}
+
+/* Custom Scrollbar using CSS */
+.custom-scrollbar-css {
+    overflow-y: scroll;
+}
+
+/* scrollbar width */
+.custom-scrollbar-css::-webkit-scrollbar {
+    width: 5px;
+}
+/* scrollbar track */
+.custom-scrollbar-css::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.1);
+}
+
+/* scrollbar handle */
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: rgba(0,0,0,.1);
+    /*background-image: linear-gradient(to top, #00d2ff 0%, #3a7bd5 100%);*/
+    border-radius: 10px;
+    background: linear-gradient(left, #fff, #E4E7ED);
+}
+/**/
+
+
+/*External*/
+.box-shadow {
+    box-shadow: 0 10px 40px 0 rgba(62,57,107,.07), 0 2px 9px 0 rgba(62,57,107,.06);
+}
+
+.icon-minimenu:hover {
+    cursor: pointer;
+}
+/*End External*/

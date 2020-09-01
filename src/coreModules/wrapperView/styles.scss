@@ -1,0 +1,40 @@
+@import '../../styles/color';
+
+.wrapper {
+  background-color: $honeyDew-light;
+  display: block;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  position: fixed;
+  margin: -8px;
+  .main-container {
+    flex: 2 0;
+    order: 2;
+    padding: 10px 20px 20px;
+    transform: none;
+    // Flexbox need width
+    // 64px is left nav bar's width
+    width: calc(100% - 64px);
+    margin: 0;
+    .main-page {
+      background-color: $white;
+      height: max-content;
+      margin-top: 10px;
+      border-radius: 2px;
+      box-shadow: darken($color: $black, $amount: 0);
+      margin-bottom: 20px;
+      overflow: overlay;
+      padding: 15px;
+    }
+  }
+  .subwrapper {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    min-height: 100%;
+    .main-container {
+      width: 80%;
+    }
+  }
+}

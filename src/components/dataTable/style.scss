@@ -1,0 +1,40 @@
+@import '../../styles/color';
+
+.hdt-tables-datatable {
+    .content-no-data {
+        font-size: 14px;
+        color: $text;
+        padding: 100px 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .datatable-paging {
+        display: flex;
+        justify-content: center;
+
+        .datatable-pagination {
+            .MuiIconButton-root {
+                &:hover {
+                    background-color: $white;
+                }
+            }
+
+            .MuiButton-root {
+                &:hover {
+                    background-color: $white;
+                }
+            }
+
+            .active {
+                color: $raspberry;
+                min-width: 0;
+            }
+
+            .normal {
+                min-width: 0;
+            }
+        }
+    }
+}

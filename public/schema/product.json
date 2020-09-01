@@ -1,0 +1,46 @@
+{
+    "title": "Danh mục sản phẩm",
+    "datatable": {
+        "headers": [
+            {
+                "id": "ma_sp",
+                "label": "title:products.id"
+            },
+            {
+                "id": "ten_sp",
+                "label": "title:products.name"
+            }
+        ],
+        "options": {
+            "isPaging": true,
+            "sizePerPage": 3
+        }
+    },
+    "editPage": {
+        "schema": {
+            "title": "Edit Product",
+            "type": "object",
+            "required": ["ma_sp", "ten_sp"],
+            "properties": {
+                "ma_sp": {"type": "string", "title": "Ma san pham"},
+                "ten_sp": {"type": "string", "title": "Tên sản phẩm"},
+                "phone": {"type": "string", "title": "Số điện thoại"}
+            }
+        },
+        "uischema": {
+            "ma_sp": {
+                "ui:placeholder": "Ma SP"
+            },
+            "ten_sp": {
+                "ui:placeholder": "Tên sản phẩm"
+            },
+            "phone": {
+                "ui:widget": "phone",
+                "ui:options": {
+                    "color": "blue",
+                    "backgroundColor": "aqua"
+                }
+            }
+        }
+    }
+}

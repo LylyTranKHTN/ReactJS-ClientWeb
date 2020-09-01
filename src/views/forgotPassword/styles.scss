@@ -1,0 +1,42 @@
+#hdt-forgot-password {
+    text-align: center;
+}
+@import "../../styles/color";
+@import '../../styles/mainStyle.scss';
+
+#hdt-forgot-password {
+  background-color: $white;
+  width: 450px;
+  margin: 150px auto;
+  padding: 10px 10px 50px;
+  .hdt-button .MuiButton-contained {
+    width: 325px;
+    background-color: $bluebell;
+  }
+  .hdt-login-checkbox {
+    width: 325px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .login-actions {
+    display: inline-flex;
+    width: 325px;
+    margin-top: 15px;
+    .hdt-link-button {
+      width: 50%;
+    }
+    .hdt-link-button:first-child {
+      text-align: left;
+    }
+    .hdt-link-button:last-child {
+      text-align: right;
+    }
+    .MuiTypography-root {
+      color: $link;
+    }
+  }
+
+  .login-title {
+    color: $raspberry;
+  }
+}

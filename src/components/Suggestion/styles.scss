@@ -1,0 +1,60 @@
+@import '../../styles/color';
+
+.side-bar {
+    width: 20%;
+    background: $bluebell-light;
+    border-right: thin solid $sage;
+    min-height: 100%;
+    li {
+        color: $bluebell-dark;
+        text-transform: uppercase;
+    }
+
+    .active > li {
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), $bluebell-dark);
+        color: $white;
+    }
+    li:hover {
+        background-image: linear-gradient(to left, $honeyDew-light, $honeyDew);
+        color: $sage-dark;
+    }
+
+    .navigation-main > .active-menu-item {
+        background-color: $white !important;
+        border-left: solid 5px $white;
+        color: $raspberry;
+    }
+
+    .navigation-sub > .active-menu-item {
+        color: $sage-dark !important;
+        border-left: solid 5px $white;
+    }
+
+    .navigation-main {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 0 0 0;
+    }
+
+    .navigation-sub {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 0 10px 15px;
+    }
+
+    .nav-item {
+        min-height: 50px;
+        font-size: 14px;
+        line-height: 50px;
+        letter-spacing: normal;
+        text-align: left;
+        cursor: pointer;
+        padding-left: 30px;
+        border-left: solid 5px $raspberry;
+        font-weight: 600;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

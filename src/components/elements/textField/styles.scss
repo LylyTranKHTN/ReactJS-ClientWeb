@@ -1,0 +1,38 @@
+@import "../../../styles/color";
+@import "../../../styles/main.scss";
+
+.hdt-text-field {
+  margin: 10px auto 10px auto;
+  .MuiTextField-root {
+    height: 70px;
+    .MuiFormLabel-root {
+      font-size: 14px;
+      transform: translate(0, -5px) scale(1);
+    }
+    .MuiInputBase-root {
+      .MuiInputBase-input {
+        width: 300px;
+        height: 34px;
+        border: solid thin $bluebell-dark;
+        border-radius: 2px;
+        font-size: 14px;
+        padding: 0 10px;
+      }
+    }
+  }
+  .MuiFormLabel-root.Mui-focused {
+    color: $bluebell;
+  }
+  .MuiInputBase-input:focus {
+    border-color: $bluebell;
+  }
+
+  .MuiFormLabel-root.Mui-error {
+    color: $raspberry;
+  }
+
+  .MuiFormHelperText-root.Mui-error {
+    color: $raspberry;
+  }
+  
+}
